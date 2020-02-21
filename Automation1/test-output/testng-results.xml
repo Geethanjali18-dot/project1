@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136" started-at="2020-02-12T08:48:52Z" finished-at="2020-02-12T08:48:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="136" started-at="2020-02-12T08:48:52Z" finished-at="2020-02-12T08:48:52Z">
+      <class name="com.actitime.test.ModifyCustomer2">
+        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.test.ModifyCustomer2@29ee9faa]" name="openBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T14:18:52Z" finished-at="2020-02-12T14:18:52Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method openBrowser but has not been marked @Optional or defined
+in C:\Users\Pradeep\AppData\Local\Temp\testng-eclipse-1600524636\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method openBrowser but has not been marked @Optional or defined
+in C:\Users\Pradeep\AppData\Local\Temp\testng-eclipse-1600524636\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.actitime.test.ModifyCustomer2@29ee9faa]" name="login" is-config="true" duration-ms="0" started-at="2020-02-12T14:18:52Z" finished-at="2020-02-12T14:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="modifyCustomer()[pri:0, instance:com.actitime.test.ModifyCustomer2@29ee9faa]" name="modifyCustomer" duration-ms="20" started-at="2020-02-12T14:18:52Z" finished-at="2020-02-12T14:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.actitime.test.ModifyCustomer2@29ee9faa]" name="logout" is-config="true" duration-ms="0" started-at="2020-02-12T14:18:52Z" finished-at="2020-02-12T14:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.actitime.test.ModifyCustomer2@29ee9faa]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-02-12T14:18:52Z" finished-at="2020-02-12T14:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.test.ModifyCustomer2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
