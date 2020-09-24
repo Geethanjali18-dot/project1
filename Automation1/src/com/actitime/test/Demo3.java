@@ -39,7 +39,7 @@ public class Demo3 {
 		Reporter.log("DeleteCustomer",true);
 	}
 	@Test(priority=2,invocationCount=2)
-	public void editeCustomer()
+	public void editCustomer()
 	{
 		Reporter.log("editeCustomer",true);
 	}

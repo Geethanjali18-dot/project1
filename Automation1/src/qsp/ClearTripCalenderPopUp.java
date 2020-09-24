@@ -14,13 +14,13 @@ public class ClearTripCalenderPopUp {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
 	public static void main(String[] args) throws InterruptedException {
-		
-		WebDriver driver=new ChromeDriver();
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--disable-notifications");	
+		WebDriver driver=new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.navigate().to("https://www.cleartrip.com/");
-		ChromeOptions option=new ChromeOptions();
-		option.addArguments("--disable-notifications");		
+			
 		Thread.sleep(3000);
 		driver.findElement(By.id("FromTag")).sendKeys("nba");
 		driver.findElement(By.xpath("//a[.='Bangalore, IN - Kempegowda International Airport (BLR)']")).click();

@@ -2,7 +2,7 @@ package qsp;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Demo {
+public class GetTitle {
 	static {
 		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe" );
 	}
